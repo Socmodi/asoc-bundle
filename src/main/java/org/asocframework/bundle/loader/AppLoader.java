@@ -6,4 +6,7 @@ package org.asocframework.bundle.loader;
  * @desc
  */
 public interface AppLoader {
+
+
+
 }

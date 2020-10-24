@@ -1,7 +1,5 @@
 package org.asocframework.bundle.agent;
 
-import org.asocframework.bundle.app.AppContext;
-
 import java.lang.management.ManagementFactory;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;

@@ -28,7 +28,8 @@ public class AsocBundleAgent {
             /**
              * 通过热部署模块与
              */
-            /*Set<String> hotPatchClasses = JarFileUtils.extractClassNameFromJarFile(agentArgs);
+/*
+            Set<String> hotPatchClasses = JarFileUtils.extractClassNameFromJarFile(agentArgs);
             Class[] allLoadedClasses = inst.getAllLoadedClasses();
             for (Class clazz : allLoadedClasses) {
                 if (hotPatchClasses.contains(clazz.getName())) {
@@ -38,7 +39,8 @@ public class AsocBundleAgent {
                         //logger.error("transformer class error", e);
                     }
                 }
-            }*/
+            }
+*/
 
         } catch (Exception e) {
 
